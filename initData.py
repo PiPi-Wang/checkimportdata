@@ -10,10 +10,10 @@ import getMarRate
 
 #建立数据库连接，返回一个游标对象
 def connDB():
-	host = 'cd05'
-	user = 'root'
-	passwd = 'Accelecom.123'
-	db = 'test'
+	host = 'abc'
+	user = 'name'
+	passwd = '123'
+	db = 'test_db'
 	conn = MySQLdb.connect(host,user,passwd,db)
 	cur = conn.cursor()
 	return cur
